@@ -43,13 +43,14 @@ The directory structure is the standard layout for the torchvision [`datasets.Im
 ```
 
 ## Training
-To train KVT-tiny on ImageNet on a single node with 4 gpus for 300 epochs run:
+To train DeiT-KVT-tiny on ImageNet on a single node with 4 gpus for 300 epochs run:
 
-KVT-tiny
+DeiT-KVT-tiny
 ```
 python -m torch.distributed.launch --nproc_per_node=4 --use_env main.py --model deit_tiny_patch16_224 --batch-size 256 --data-path /path/to/imagenet --output_dir /path/to/save
 ```
 
+## Citation
 If you use this code for a paper please cite:
 
 ```
