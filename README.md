@@ -8,7 +8,15 @@ For details see [K-NN Attention for Boosting Vision Transformers](https://arxiv.
 The code is based on [DeiT](https://github.com/facebookresearch/deit).
 
 ## Results on ImageNet-1K
-<img src="Results.png" width="600">
+<img src="image/Results.png" width="600">
+
+## Visualization
+
+Self-attention heads from the last layer in Dino-small.
+<img src="image/vis1.png" >
+
+Images from different classes are visualized using Transformer Attribution method on DeiT-Tiny.
+<img src="image/vis2.png" >
 
 # Usage
 
