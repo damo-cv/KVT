@@ -8,7 +8,7 @@ For details see [K-NN Attention for Boosting Vision Transformers](https://arxiv.
 The code is based on [DeiT](https://github.com/facebookresearch/deit).
 
 ## Results on ImageNet-1K
-![main figure](Result.png)
+<img src="Results.png" width="600">
 
 # Usage
 
